@@ -4,35 +4,107 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edikan's Portfolio</title>
-    <link rel="stylesheet" href="styles/stle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="navbar">
-      <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>skills</li>
-        <li>projects</li>
-        <li>contact</li>
-      </ul>
-    </div>
-   <section id="hero">
-    <h1>I'm Edikan</h1>
-    <h4>a programmer</h4>
-   </section>
-   <section id="intro">
-    <img src="assets/images/profile.jpg" alt="" width="200px">
-    <h2>Hi there!</h2>
-    <p>I'm a web developer. I like to express myself through art. My art mediums are drawing and poetry.</p>
-   </section>
-   <section id="skill"></section>
-   <section id="contact"></section>
-   <section id="footer"></section>
+    <!---Navigation-->
+    <header id="home" class="header__section">
+      <nav class="navbar">
+        <div class="logo">EA</div>
 
+        <ul class="nav-links">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!---Hero Section-->
+    <section id="hero" class="hero__section">
+      <div class="open">
+        <h1>I'm Edikan</h1>
+        <p>A Programmer</p>
+      </div>
     </section>
+
+    <!---About Section-->
+    <section id="about" class="about__section">
+      <div class="intro">
+        <img
+          src="./assets/images/profile.jpg"
+          alt="profile image"
+          width="200"
+        />
+        <h2>Hi.</h2>
+        <p>
+          I'm a Web Developer and a Graphic Designer. I also like to draw and
+          write poetry about things that inspire me.
+        </p>
+        <button>
+          <a href="../captstone project 1/index.html" target="_blank"
+            >Resume/CV</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <!--Project Section-->
+    <section id="projects" class="profile__section">
+      <div class="container">
+        <div class="row1">
+          <img src="assets/images/uiux.webp" alt="" width="300" />
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            minima minus aliquam saepe corporis magni. Sed dolor enim ex
+            aliquid.
+          </p>
+        </div>
+        <div class="row1">
+          <img src="assets/images/uiux.webp" alt="" width="300" />
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            minima minus aliquam saepe corporis magni. Sed dolor enim ex
+            aliquid.
+          </p>
+        </div>
+        <div class="row1">
+          <img src="assets/images/uiux.webp" alt="" width="300" />
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            minima minus aliquam saepe corporis magni. Sed dolor enim ex
+            aliquid.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact__section">
+      <h2>Get In Touch</h2>
+      <p>If you would like to work together feel free to reach out</p>
+      <button>Contact Me</button>
+    </section>
+
+    <footer>
+      <p>Copyrights &copy; 2025 Edikan Akpan</p>
+    </footer>
   </body>
 </html>

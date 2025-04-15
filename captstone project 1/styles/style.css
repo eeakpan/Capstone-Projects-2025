@@ -1,6 +1,13 @@
+/* 
+ #071e3d- Dark Blue
+#1F4287 - Blue
+#278EA5 - Teal
+#21E6C1 - Mint
+*/
+
 * {
-  background-color: black;
-  color: white;
+  background-color: #fff;
+  color: #071e3d;
   margin: 0;
   padding: 0;
   font-family: lato;
@@ -17,24 +24,14 @@
 }
 
 #title h2 {
-  color: #d6a124;
+  color: #278ea5;
   text-align: center;
   margin-top: 1rem;
-  font-size: 40px;
-}
-
-.my_photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: groove;
-  border-radius: 10%;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  font-size: 25px;
 }
 
 .sub_title {
-  color: #d6a124;
+  color: #278ea5;
   margin-top: 1rem;
 }
 
@@ -42,8 +39,12 @@ section {
   margin-bottom: 1rem;
 }
 
+.my_contact_info {
+  text-align: center;
+}
 #my_contact_info ul li {
-  color: red;
+  color: #071e3d;
+  display: inline;
 }
 
 hr {
